@@ -12,7 +12,7 @@ This guide will help you set up and run the Bank Note Prediction API project.
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Jagannath29/fast_api_application_12_factor_principle.git
 cd bank_note_prediction_using_fast_api
 ```
 

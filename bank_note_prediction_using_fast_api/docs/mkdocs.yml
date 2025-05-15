@@ -4,7 +4,7 @@ site_description: A machine learning project for bank note authentication using 
 
 # Repository
 repo_name: Bank Note Prediction
-repo_url: https://github.com/yourusername/bank_note_prediction_using_fast_api
+repo_url: https://github.com/Jagannath29/fast_api_application_12_factor_principle.git
 
 # Configuration
 theme:

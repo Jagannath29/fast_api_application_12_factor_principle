@@ -20,6 +20,15 @@ requires-python = ">=3.10"
 line-length = 99
 src = ["bank_note_prediction_using_fast_api"]
 include = ["pyproject.toml", "bank_note_prediction_using_fast_api/**/*.py"]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+]
 
 [tool.ruff.lint]
 extend-select = ["I"]  # Add import sorting

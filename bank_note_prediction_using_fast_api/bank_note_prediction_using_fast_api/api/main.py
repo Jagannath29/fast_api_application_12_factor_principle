@@ -15,6 +15,10 @@ def index():
 def get_name(name: str):
     return {'Welcome To my home': f'{name}'}
 
+@app.get('/health')
+def health_check():
+    return {'status': 'healthy'}
+
 @app.post('/predict')
 def predict(data: BankNote):
     prediction = predict_banknote(
